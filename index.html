@@ -22,12 +22,17 @@
         <h5 class="display-5">Sequent bot demo site</h5>
         <hr>
 
-        <p>Sequent bot is a sequent-style automated theorem prover for first-order predicate logic. For details, see the
+        <p>Sequent bot is a sequent-style automated theorem prover for first-order predicate logic. For details, please
+            refer to the
             <a href="https://github.com/boitsov14/theorem-prover-kt" target="_blank">GitHub repository</a>.
         </p>
-        <p>The Twitter bot is also <a href="https://twitter.com/sequent_bot" target="_blank">available</a>!</p>
-        <p>You can see the manual <a href="https://github.com/boitsov14/theorem-prover-kt/blob/main/manual.md"
+        <p>The Misskey bot is also <a href="https://misskey.io/@sequent_bot" target="_blank">available</a>!</p>
+        <p>You can find the user manual <a href="https://github.com/boitsov14/theorem-prover-kt/blob/main/manual.md"
                 target="_blank">here</a>.
+        </p>
+        <p>Any bug reports or feedback are welcome. Please feel free to contact me on <a
+                href="https://twitter.com/boitsov14" target="_blank">Twitter</a> or <a
+                href="https://misskey.io/@boitsov14" target="_blank">Misskey</a>.
         </p>
 
         <h6 class="display-6">Input some formula</h6>
@@ -54,6 +59,7 @@
             <li class="list-group-item bg-light">¬∀xP(x) ↔ ∃x¬P(x)</li>
             <li class="list-group-item bg-light">¬∃xP(x) ↔ ∀x¬P(x)</li>
             <li class="list-group-item bg-light">∃x∀yP(x,y) → ∀y∃xP(x,y)</li>
+            <li class="list-group-item bg-light">∀x,y,zP(x,y,z) → ∀z,y,xP(x,y,z)</li>
             <li class="list-group-item bg-light">P(a), ∀x(P(x) → P(f(x))) ⊢ P(f(f(f(a))))</li>
             <li class="list-group-item bg-light">P(a), ∀x(P(x) → P(f(x))) ⊢ P(f(f(f(f(f(f(f(f(f(f(a)))))))))))</li>
         </ul>
